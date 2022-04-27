@@ -89,3 +89,7 @@ http://www.hostbuf.com/downloads/finalshell_install.pkg
 如何遇到打不开的情况，可能是端口没有放行，用【方法1】键入停止防火墙代码，或键入开放端口代码。
 
 - 3、V2ray软件：设置——参数设置——V2rayN设置——Core类型改为Xray_Core
+
+出错使用--insecury 参数
+~/.acme.sh/acme.sh --register-account --insecure -m xx@xx.com
+~/.acme.sh/acme.sh  --issue -d 域名   --standalone --insecure
