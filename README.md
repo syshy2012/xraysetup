@@ -93,3 +93,6 @@ http://www.hostbuf.com/downloads/finalshell_install.pkg
 出错使用--insecury 参数
 ~/.acme.sh/acme.sh --register-account --insecure -m xx@xx.com
 ~/.acme.sh/acme.sh  --issue -d 域名   --standalone --insecure
+
+~/.acme.sh/acme.sh  --renew -d 域名 --force
+
